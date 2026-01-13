@@ -17,7 +17,7 @@ public class fibonacciNum {
         return result;
     }
 
-    public static void main(RemoveOccurrences[] args) {
+    public static void main(String[] args) {
         System.out.println(fibonacci(6));
     }
 }
