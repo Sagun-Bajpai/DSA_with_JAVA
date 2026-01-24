@@ -1,6 +1,7 @@
 package Sorting_with_java37;
 
 public class CountSort {
+     //find the largest element of the array
     static int find_max(int[] arr) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length; i++) {
