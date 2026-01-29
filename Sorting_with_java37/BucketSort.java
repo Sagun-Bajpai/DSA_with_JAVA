@@ -10,7 +10,7 @@ public class BucketSort {
         }
     }
 
-    static void radixSort(float[] arr) {
+    static void BucketSort(float[] arr) {
         int n = arr.length;
         // Bucket
         ArrayList<Float>[] buckets = new ArrayList[n];
@@ -40,7 +40,7 @@ public class BucketSort {
 
     public static void main(String[] args) {
         float[] arr = { 0.5f, 0.4f, 0.3f, 0.2f, 0.1f };
-        radixSort(arr);
+        BucketSort(arr);
         display(arr);
     }
 }
