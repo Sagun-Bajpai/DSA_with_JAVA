@@ -1,3 +1,5 @@
+//“A 3D array stores data in three dimensions and is accessed using three indexes.
+//We traverse it using three nested loops.”
 package Array_with_java;
 
 class Array3DExample {
@@ -7,13 +9,13 @@ class Array3DExample {
         arr_3[0][0][1] = 76;
         arr_3[0][1][0] = 98;
         arr_3[0][1][1] = 67;
-      
+
         System.out.println(arr_3[0][0][0]);
         System.out.println(arr_3[0][0][1]);
         System.out.println(arr_3[0][1][0]);
         System.out.println(arr_3[0][1][1]);
         System.out.println(arr_3.length);
-        for(int i=0;i<=1;i++){
+        for (int i = 0; i < 1; i++) {
             System.out.println(arr_3[i]);
 
         }
