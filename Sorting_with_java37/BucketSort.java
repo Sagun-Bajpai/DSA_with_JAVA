@@ -21,6 +21,7 @@ public class BucketSort {
         // add element into our buckets
         for (int i = 0; i < n; i++) {
             int bucketIndex = (int) (arr[i] * n);
+
             buckets[bucketIndex].add(arr[i]);
         }
 
