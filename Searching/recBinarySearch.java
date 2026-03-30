@@ -1,5 +1,6 @@
 package Searching;
 
+//using recursion binary search
 public class recBinarySearch {
 
     static boolean recBinarysearch(int[] arr, int left, int right, int target) {

@@ -1,5 +1,5 @@
-/*given the rotated sorted array of integer. which contains distinct elements and an integer target,return the index of target . if it is in the
-arr .otherwise return -1 */
+/*given the rotated sorted array of integer. which contains distinct elements and an integer target,return 
+the index of target . if it is in the arr .otherwise return -1 */
 package Searching;
 
 public class RSortedArrayFindIdx {

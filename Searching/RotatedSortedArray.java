@@ -11,9 +11,9 @@ public class RotatedSortedArray {
 
         while (st <= end) {
             int mid = (st + end) / 2;
-            if (arr[mid] > arr[n - 1]) {
+            if (arr[mid] > arr[end]) {
                 st = mid + 1;
-            } else if (arr[mid] <= arr[n - 1]) {
+            } else if (arr[mid] <= arr[end]) {
                 ans = mid;
                 end = mid - 1;
 
