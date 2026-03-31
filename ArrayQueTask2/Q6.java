@@ -1,5 +1,5 @@
 /*6.(Medium) Write a Java program to find the second largest element without sorting the array and without using extra space */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.Arrays;
 import java.util.*;

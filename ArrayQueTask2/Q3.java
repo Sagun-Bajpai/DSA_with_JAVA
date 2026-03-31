@@ -1,7 +1,7 @@
 /*2. Find Smallest Element
 3.	(Easy) Write a Java program to find the smallest element in an array.
  */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.Scanner;
 

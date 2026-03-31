@@ -1,7 +1,7 @@
 /*4. Reverse Array
 7.	(Medium) Write a Java program to reverse the array in-place using two pointers (without creating a new array).
  */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.*;
 

@@ -1,7 +1,7 @@
 /*5. Check if Array is Sorted
 8.	(Easy) Write a Java program to check if an array is sorted in ascending order.
  */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.*;
 

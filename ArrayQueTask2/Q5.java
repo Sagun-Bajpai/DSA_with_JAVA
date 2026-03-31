@@ -1,7 +1,7 @@
 /*3. Find Second Largest Element
 5.	(Easy) Write a Java program to find the second largest element in an array.
  */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 /*2.(Medium) Write a Java program to find the largest element without sorting the array and using only one loop traversal. */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.*;
 

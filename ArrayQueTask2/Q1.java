@@ -2,7 +2,7 @@
 1.	(Easy) Write a Java program to find the largest element in an integer array.
 Example: [3,7,2,9,5] → 9.
  */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.*;
 

@@ -1,7 +1,7 @@
 /*
 4.	(Medium) Write a Java program to find the smallest element and also print its index position.
 */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.Scanner;
 

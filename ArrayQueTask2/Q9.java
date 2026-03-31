@@ -1,5 +1,5 @@
 /*9.(Medium) Write a Java program to check if an array is sorted either in ascending or descending order.? */
-package ArrayQue;
+package ArrayQueTask2;
 
 import java.util.Scanner;
 
