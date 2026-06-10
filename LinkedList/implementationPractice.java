@@ -15,15 +15,18 @@ public class implementationPractice {
         Node Head = null;
         Node tail = null;
 
-        public void insetATEnd(int val) {
+        // function insertatHead
+        public void insertAtHead(int val) {
             Node temp = new Node(val);
+            // for empty node
             if (Head == null) {
                 Head = temp;
+                tail = temp;
             } else {// non empty
-                tail.next = temp;
+                temp.next = Head;
+                Head = temp;
 
             }
-            tail = temp;
         }
 
         public void display() {
@@ -40,11 +43,11 @@ public class implementationPractice {
 
     public static void main(String[] args) {
         Linkedlist l1 = new Linkedlist();
-        l1.insetATEnd(3);
-        l1.insetATEnd(4);
-        l1.insetATEnd(5);
-        l1.insetATEnd(6);
-        l1.insetATEnd(1);
+        l1.insertAtHead(3);
+        l1.insertAtHead(4);
+        l1.insertAtHead(5);
+        l1.insertAtHead(6);
+        l1.insertAtHead(1);
         l1.display();
 
     }
