@@ -12,7 +12,11 @@ public class stack {
         st.push(3);
         st.push(15);
         st.push(12);
+
         System.out.println(st.peek());
+        System.out.print(st.get(0));
+
+        System.out.println();
 
         System.out.println(st);
         st.pop();
