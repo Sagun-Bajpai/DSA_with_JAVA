@@ -5,10 +5,18 @@ import java.util.Stack;
 public class pushAtBottom {
 
     public static void PushBottom(Stack<Integer> st, int x) {
+        // if (st.size() == 0) {
+        // st.push(x);
+        // return;
+        // }
+        // int top = st.pop();
+        // PushBottom(st, x);
+        // st.push(top);
         if (st.size() == 0) {
             st.push(x);
             return;
         }
+
         int top = st.pop();
         PushBottom(st, x);
         st.push(top);
