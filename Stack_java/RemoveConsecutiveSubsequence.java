@@ -17,7 +17,7 @@ public class RemoveConsecutiveSubsequence {
                     st.pop();
                 }
                 if (arr[i] == arr[i + 1]) {
-                    continue;
+                    continue;//skip krr do
                 }
             }
         }
