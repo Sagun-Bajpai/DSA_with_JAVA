@@ -2,9 +2,13 @@ package AtoZ_Striver_DSA_sheet.learn_the_basic.pattern;
 
 public class pattern17 {
     public static void pattern(char ch) {
-        for (char r = ch; r <= ch + 4; r++) {
-            for (char c = ch; c <= ch + 4 - (r - ch); c++) {
-                System.out.print((char) (c));
+        for (char i = ch; i <= ch + 4; i++) {
+            for (char j = ch; j <= ch + 4 - (i - ch); j++) {
+                System.out.print((char) (j));
+
+            }
+            for (char j = ch; j <= ch + 4 - (i - ch); j++) {
+                System.out.print((char) (j));
 
             }
             System.out.println();
